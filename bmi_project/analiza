@@ -1,0 +1,40 @@
+środowisko programistyczne: PyCharm
+język programowania: Python 3
+do testowania użyto pytest
+
+Wymagania:
+
+Użytkownik powinien móc wprowadzić swoją wagę (w kilogramach).
+Użytkownik powinien móc wprowadzić swój wzrost (w centymetrach).
+Użytkownik powinien móc wprowadzić swój wiek (w latach).
+Użytkownik powinien móc wprowadzić swoją płeć (mężczyzna/kobieta).
+Użytkownik powinien móc wprowadzić poziom swojej aktywności fizycznej (w skali od 1 do 6).
+
+Obliczanie BMI:
+
+Aplikacja powinna obliczać BMI na podstawie wagi i wzrostu użytkownika.
+Wynik BMI powinien być wyświetlany użytkownikowi.
+
+Obliczanie zapotrzebowania kalorycznego:
+
+Aplikacja powinna obliczać zapotrzebowanie kaloryczne na podstawie wagi, wzrostu, wieku, płci i poziomu aktywności fizycznej użytkownika.
+Wynik zapotrzebowania kalorycznego powinien być wyświetlany użytkownikowi.
+
+Obsługa błędów:
+
+Aplikacja powinna obsługiwać błędne dane wejściowe, takie jak nieprawidłowa płeć lub poziom aktywności fizycznej spoza zakresu 1-6.
+Aplikacja powinna wyświetlać odpowiednie komunikaty błędów w przypadku nieprawidłowych danych wejściowych.
+
+
+Moduły:
+
+main.py: Główny plik aplikacji, który obsługuje interakcję z użytkownikiem i wywołuje odpowiednie funkcje.
+bmi.py: Moduł zawierający funkcję do obliczania BMI.
+kalorie.py: Moduł zawierający funkcje do obliczania zapotrzebowania kalorycznego dla kobiet i mężczyzn.
+osoby.py: Moduł zawierający klasę służącą do zapisania osoby i jej danych
+
+Klasy:
+
+Osoba: Klasa reprezentująca użytkownika, zawierająca atrybuty takie jak imię, nazwisko, waga, wzrost, wiek, płeć i poziom aktywności fizycznej.
+
+Lista osoby: Przechowuje obiekty klasy Osoba.
